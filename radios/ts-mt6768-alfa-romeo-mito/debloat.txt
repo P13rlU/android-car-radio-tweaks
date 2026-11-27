@@ -1,0 +1,22 @@
+# TS / forfan head unit, MediaTek MT6768 (board spm8667p1_64), Android 10 (reports 13), MainUI 1.0.75
+# Build: sys_mssi_spm_64_cn-userdebug 10 QP1A.190711.020 p5spm8666p164P2 test-keys
+# Disabled with: pm disable-user --user 0 <package>. Daily use since 2026-11-22: nothing broke.
+# Already disabled at the factory (left alone): com.carletter.car, com.ts.fan
+
+# Android and MediaTek extras
+com.android.protips
+com.android.egg
+com.android.dreams.basic
+com.mediatek.mdmlsample                      # MediaTek sample app
+com.google.android.apps.pixelmigrate         # Pixel data transfer
+com.android.printservice.recommendation
+com.android.bips                             # built-in print service
+
+# Google extras
+com.google.android.googlequicksearchbox      # Google app; the launcher search does not need it
+com.google.android.safetycore
+com.google.android.contactkeys
+
+# Head unit vendor apps
+com.ts.car.client                            # TS CarClient background service
+com.txznet.txz                               # TXZ Chinese voice assistant

@@ -1,0 +1,40 @@
+name: My radio
+description: A head unit that is not in radios/ yet, or a correction to one that is
+title: "[Radio] Firmware / SoC in Car (Android version)"
+labels: [radio]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tested units are in [`radios/`](../tree/main/radios). A pull request is even better: see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md). Leave out IP addresses, IMEI, serial numbers and location.
+  - type: input
+    id: car
+    attributes:
+      label: Car
+      placeholder: Alfa Romeo MiTo 2012
+    validations:
+      required: true
+  - type: textarea
+    id: facts
+    attributes:
+      label: Facts from ADB
+      description: Paste the output of the commands in CONTRIBUTING.md, section 1, step 1.
+      render: shell
+    validations:
+      required: true
+  - type: checkboxes
+    id: works
+    attributes:
+      label: Companion app features that work
+      options:
+        - label: Speed widget
+        - label: Outside temperature
+        - label: Bluetooth music card
+        - label: Radio station card
+  - type: textarea
+    id: details
+    attributes:
+      label: What you changed and what happened
+      description: Disabled packages, settings, quirks, anything that broke.
+    validations:
+      required: true

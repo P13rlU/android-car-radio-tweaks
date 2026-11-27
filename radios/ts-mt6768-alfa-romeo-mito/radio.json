@@ -1,0 +1,8 @@
+{
+  "radio": "TS / forfan head unit, MediaTek MT6768, 8 GB RAM, 128 GB",
+  "car": "Alfa Romeo MiTo 2012",
+  "android": "10 (reports 13)",
+  "mainui": "1.0.75",
+  "works": ["speed widget", "outside temperature from CAN", "Bluetooth music card", "radio station card"],
+  "notes": "Panel 1024x600 rendered at 1280x720; ADB on port 5555 without authorization; Kvaesitso as home"
+}

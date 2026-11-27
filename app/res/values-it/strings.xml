@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Velocità</string>
+    <string name="bt_music">Musica BT</string>
+    <string name="channel_media">Musica Bluetooth</string>
+</resources>
