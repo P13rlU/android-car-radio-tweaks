@@ -95,6 +95,17 @@ Undo one: `adb shell pm enable <package>`.
 [docs/mainui.md](docs/mainui.md) documents the MainUI binder interface (speed, radio, keys, work mode), the
 system property with the outside temperature and the factory menu, all from MainUI 1.0.75.
 
+## Related projects
+
+Other open-source work on the same firmware family:
+
+- [OpenRadioFM](https://github.com/kapi21/OpenRadioFM): a full FM radio app (RDS, station logos, widget) for
+  several head unit platforms, including MTK8259_8667; it talks to the same MainUI radio interface.
+- [Radio+](https://github.com/edman01/radio-plus-open): an FM/AM radio app tested on the Junsun V7, with
+  experimental MainUI support.
+- [ev-range-headunit](https://github.com/zsabbasi/ev-range-headunit): reads CAN data through MainUI to show the
+  real range of a small EV.
+
 ## Disclaimer
 
 Unofficial and not affiliated with any manufacturer. You change your own head unit at your own risk.
